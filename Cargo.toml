@@ -1,0 +1,14 @@
+[package]
+name = "server"
+version = "0.1.0"
+#authors = ["noone"]
+
+[[bin]]
+name = "server"
+
+[dependencies]
+libc = "*"
+
+[dependencies.enet-sys]
+path = "../enet-sys"
+
